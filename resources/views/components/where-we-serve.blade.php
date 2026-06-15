@@ -45,7 +45,7 @@
 
         <div class="reveal">
             <div class="wccf-gradient rounded-2xl p-10 md:p-14">
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8 text-center">
                     <div>
                         <div class="counter-number text-4xl md:text-5xl font-heading text-wccf-gold font-bold" data-target="70" data-suffix="+">0</div>
                         <p class="text-white/80 text-sm mt-2 uppercase tracking-wider">Member Churches</p>
@@ -53,10 +53,6 @@
                     <div>
                         <div class="counter-number text-4xl md:text-5xl font-heading text-wccf-gold font-bold" data-target="5000" data-suffix="+">0</div>
                         <p class="text-white/80 text-sm mt-2 uppercase tracking-wider">Seat Capacity</p>
-                    </div>
-                    <div>
-                        <div class="counter-number text-4xl md:text-5xl font-heading text-wccf-gold font-bold" data-target="35" data-suffix="+ Years">0</div>
-                        <p class="text-white/80 text-sm mt-2 uppercase tracking-wider">Years of Fellowship</p>
                     </div>
                     <div>
                         <div class="counter-number text-4xl md:text-5xl font-heading text-wccf-gold font-bold" data-target="5" data-suffix="M+">0</div>

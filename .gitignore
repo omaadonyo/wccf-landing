@@ -1,6 +1,6 @@
 /.phpunit.cache
 /node_modules
-/storage/framework/views/*.php
+/storage/framework/views/
 /public/build
 /public/fonts-manifest.dev.json
 /public/hot

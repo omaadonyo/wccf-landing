@@ -39,11 +39,19 @@
                             </div>
                         </div>
                         <div class="absolute left-4 md:left-1/2 w-4 h-4 bg-wccf-gold rounded-full border-4 border-white shadow -translate-x-1/2"></div>
-                        <div class="md:w-1/2"></div>
+                        <div class="md:w-1/2">
+                            <div class="rounded-lg overflow-hidden shadow-lg">
+                                <img src="{{ asset('images/image-17.jpg') }}" alt="WCCF Foundation" class="w-full h-48 object-cover">
+                            </div>
+                        </div>
                     </div>
 
                     <div class="relative flex flex-col md:flex-row items-start md:items-center gap-8 reveal">
-                        <div class="md:w-1/2"></div>
+                        <div class="md:w-1/2">
+                            <div class="rounded-lg overflow-hidden shadow-lg">
+                                <img src="{{ asset('images/image-19.jpg') }}" alt="Growth & Expansion" class="w-full h-48 object-cover">
+                            </div>
+                        </div>
                         <div class="absolute left-4 md:left-1/2 w-4 h-4 bg-wccf-gold rounded-full border-4 border-white shadow -translate-x-1/2"></div>
                         <div class="md:w-1/2">
                             <div class="bg-wccf-bg p-6 rounded-lg shadow-lg">
@@ -63,11 +71,19 @@
                             </div>
                         </div>
                         <div class="absolute left-4 md:left-1/2 w-4 h-4 bg-wccf-gold rounded-full border-4 border-white shadow -translate-x-1/2"></div>
-                        <div class="md:w-1/2"></div>
+                        <div class="md:w-1/2">
+                            <div class="rounded-lg overflow-hidden shadow-lg">
+                                <img src="{{ asset('images/image-20.jpg') }}" alt="Formal Registration" class="w-full h-48 object-cover">
+                            </div>
+                        </div>
                     </div>
 
                     <div class="relative flex flex-col md:flex-row items-start md:items-center gap-8 reveal">
-                        <div class="md:w-1/2"></div>
+                        <div class="md:w-1/2">
+                            <div class="rounded-lg overflow-hidden shadow-lg">
+                                <img src="{{ asset('images/image-22.jpg') }}" alt="Community Impact" class="w-full h-48 object-cover">
+                            </div>
+                        </div>
                         <div class="absolute left-4 md:left-1/2 w-4 h-4 bg-wccf-gold rounded-full border-4 border-white shadow -translate-x-1/2"></div>
                         <div class="md:w-1/2">
                             <div class="bg-wccf-bg p-6 rounded-lg shadow-lg">
@@ -89,7 +105,7 @@
                         <div class="absolute left-4 md:left-1/2 w-4 h-4 bg-wccf-gold rounded-full border-4 border-white shadow -translate-x-1/2"></div>
                         <div class="md:w-1/2">
                             <div class="rounded-lg overflow-hidden shadow-lg">
-                                <img src="{{ asset('images/image-17.jpg') }}" alt="Mega Church Project Groundbreaking" class="w-full h-48 object-cover">
+                                <img src="{{ asset('images/image-18.jpg') }}" alt="Mega Church Project Groundbreaking" class="w-full h-48 object-cover">
                             </div>
                         </div>
                     </div>
@@ -249,36 +265,75 @@
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover text-center reveal">
-                    <div class="h-64 overflow-hidden">
-                        <img src="{{ asset('images/image-19.jpg') }}" alt="Bishop John Doe" class="w-full h-full object-cover">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover text-center reveal group">
+                    <div class="relative h-72 overflow-hidden">
+                        <img src="{{ asset('images/image-19.jpg') }}" alt="Bishop John Doe" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+                        <div class="absolute bottom-4 left-0 right-0 flex justify-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <a href="#" class="w-9 h-9 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-wccf-gold transition-colors">
+                                <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/></svg>
+                            </a>
+                            <a href="#" class="w-9 h-9 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-wccf-gold transition-colors">
+                                <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"/></svg>
+                            </a>
+                            <a href="#" class="w-9 h-9 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-wccf-gold transition-colors">
+                                <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zM9 16V8l8 4-8 4z"/></svg>
+                            </a>
+                        </div>
                     </div>
-                    <div class="p-6">
+                    <div class="p-6 relative">
+                        <span class="w-10 h-1 bg-wccf-gold block mx-auto mb-4"></span>
                         <h4 class="font-heading text-xl font-bold text-wccf-primary">Bishop John Doe</h4>
-                        <span class="text-wccf-gold text-sm font-medium uppercase tracking-wider">Chairman</span>
-                        <p class="text-wccf-gray mt-3 text-sm">Providing spiritual oversight and strategic direction for the fellowship.</p>
+                        <span class="text-wccf-gold text-xs font-semibold uppercase tracking-[3px]">Chairman</span>
+                        <p class="text-wccf-gray mt-4 text-sm leading-relaxed">Providing spiritual oversight and strategic direction for the fellowship.</p>
                     </div>
                 </div>
 
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover text-center reveal">
-                    <div class="h-64 overflow-hidden">
-                        <img src="{{ asset('images/image-20.jpg') }}" alt="Rev. Jane Smith" class="w-full h-full object-cover">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover text-center reveal group">
+                    <div class="relative h-72 overflow-hidden">
+                        <img src="{{ asset('images/image-20.jpg') }}" alt="Rev. Jane Smith" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+                        <div class="absolute bottom-4 left-0 right-0 flex justify-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <a href="#" class="w-9 h-9 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-wccf-gold transition-colors">
+                                <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/></svg>
+                            </a>
+                            <a href="#" class="w-9 h-9 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-wccf-gold transition-colors">
+                                <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"/></svg>
+                            </a>
+                            <a href="#" class="w-9 h-9 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-wccf-gold transition-colors">
+                                <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zM9 16V8l8 4-8 4z"/></svg>
+                            </a>
+                        </div>
                     </div>
-                    <div class="p-6">
+                    <div class="p-6 relative">
+                        <span class="w-10 h-1 bg-wccf-gold block mx-auto mb-4"></span>
                         <h4 class="font-heading text-xl font-bold text-wccf-primary">Rev. Jane Smith</h4>
-                        <span class="text-wccf-gold text-sm font-medium uppercase tracking-wider">Vice Chairperson</span>
-                        <p class="text-wccf-gray mt-3 text-sm">Coordinating fellowship activities and supporting member churches.</p>
+                        <span class="text-wccf-gold text-xs font-semibold uppercase tracking-[3px]">Vice Chairperson</span>
+                        <p class="text-wccf-gray mt-4 text-sm leading-relaxed">Coordinating fellowship activities and supporting member churches.</p>
                     </div>
                 </div>
 
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover text-center reveal">
-                    <div class="h-64 overflow-hidden">
-                        <img src="{{ asset('images/image-22.jpg') }}" alt="Pastor Samuel O." class="w-full h-full object-cover">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden card-hover text-center reveal group">
+                    <div class="relative h-72 overflow-hidden">
+                        <img src="{{ asset('images/image-22.jpg') }}" alt="Pastor Samuel O." class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+                        <div class="absolute bottom-4 left-0 right-0 flex justify-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <a href="#" class="w-9 h-9 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-wccf-gold transition-colors">
+                                <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/></svg>
+                            </a>
+                            <a href="#" class="w-9 h-9 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-wccf-gold transition-colors">
+                                <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"/></svg>
+                            </a>
+                            <a href="#" class="w-9 h-9 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-wccf-gold transition-colors">
+                                <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zM9 16V8l8 4-8 4z"/></svg>
+                            </a>
+                        </div>
                     </div>
-                    <div class="p-6">
+                    <div class="p-6 relative">
+                        <span class="w-10 h-1 bg-wccf-gold block mx-auto mb-4"></span>
                         <h4 class="font-heading text-xl font-bold text-wccf-primary">Pastor Samuel O.</h4>
-                        <span class="text-wccf-gold text-sm font-medium uppercase tracking-wider">General Secretary</span>
-                        <p class="text-wccf-gray mt-3 text-sm">Managing day-to-day operations and administrative functions.</p>
+                        <span class="text-wccf-gold text-xs font-semibold uppercase tracking-[3px]">General Secretary</span>
+                        <p class="text-wccf-gray mt-4 text-sm leading-relaxed">Managing day-to-day operations and administrative functions.</p>
                     </div>
                 </div>
             </div>

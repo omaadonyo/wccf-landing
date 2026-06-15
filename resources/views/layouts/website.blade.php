@@ -67,7 +67,7 @@
                 if (entry.isIntersecting) {
                     const el = entry.target;
                     const target = parseInt(el.dataset.target);
-                    const duration = 2000;
+                    const duration = 4000;
                     const step = Math.ceil(target / (duration / 16));
                     let current = 0;
                     const updateCounter = () => {
