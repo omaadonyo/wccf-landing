@@ -18,6 +18,7 @@ class DatabaseSeeder extends Seeder
 {
     public function run(): void
     {
+        $this->call(ContentSectionSeeder::class);
         if (!User::where('email', 'admin@wccf.ug')->exists()) {
             User::factory()->create([
                 'name' => 'Admin User',
